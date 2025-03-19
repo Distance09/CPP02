@@ -1,0 +1,30 @@
+﻿  speechManager.cpp
+E:\学习资料\cpp\第6阶段实战-基于STL泛化编程的演讲比赛资料\代码\基于STL的演讲比赛流程管理系统\基于STL的演讲比赛流程管理系统\speechManager.cpp(56,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\学习资料\cpp\第6阶段实战-基于STL泛化编程的演讲比赛资料\代码\基于STL的演讲比赛流程管理系统\基于STL的演讲比赛流程管理系统\speechManager.cpp(362,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\develop\vs2022\Community\VC\Tools\MSVC\14.42.34433\include\numeric(33,26): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+D:\develop\vs2022\Community\VC\Tools\MSVC\14.42.34433\include\numeric(33,26): warning C4244:         with
+D:\develop\vs2022\Community\VC\Tools\MSVC\14.42.34433\include\numeric(33,26): warning C4244:         [
+D:\develop\vs2022\Community\VC\Tools\MSVC\14.42.34433\include\numeric(33,26): warning C4244:             _Ty=float
+D:\develop\vs2022\Community\VC\Tools\MSVC\14.42.34433\include\numeric(33,26): warning C4244:         ]
+  (编译源文件“speechManager.cpp”)
+      D:\develop\vs2022\Community\VC\Tools\MSVC\14.42.34433\include\numeric(33,26):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\学习资料\cpp\第6阶段实战-基于STL泛化编程的演讲比赛资料\代码\基于STL的演讲比赛流程管理系统\基于STL的演讲比赛流程管理系统\speechManager.cpp(191,16):
+          查看对正在编译的函数 模板 实例化“_Ty std::accumulate<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,float>(const _InIt,const _InIt,_Ty)”的引用
+          with
+          [
+              _Ty=float,
+              _InIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>
+          ]
+          D:\develop\vs2022\Community\VC\Tools\MSVC\14.42.34433\include\numeric(42,17):
+          查看对正在编译的函数 模板 实例化“_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)”的引用
+          with
+          [
+              _Ty=float,
+              _InIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+  
+  演讲比赛流程管理系统.cpp
+  正在生成代码...
+  基于STL的演讲比赛流程管理系统.vcxproj -> E:\学习资料\cpp\第6阶段实战-基于STL泛化编程的演讲比赛资料\代码\基于STL的演讲比赛流程管理系统\Debug\基于STL的演讲比赛流程管理系统.exe
