@@ -1,0 +1,14 @@
+The school held a speech contest in which 12 people took part. There are two rounds of the competition, the first is a knockout round and the second is a final round.
+Form of competition: in groups of 6 people; The players are randomly divided into groups each time to compete
+Each player is assigned a number, such as 10001 to 10012
+The first round was divided into two groups of six people each. The whole speech will be made in the order of the draw according to the player number.
+When the group finishes the speech, the last three players in the group will be eliminated, and the top three will advance to the next round of competition.
+The second round is the final, with the top three winners
+After each round, you need to display information about the advanced players
+
+### Program features
+
+1. Start the speech competition: Complete the process of the whole competition. At each stage of the competition, the user needs to be prompted to press any key and continue to the next stage
+2. View past records: View the top three results of previous competitions, each competition will be recorded in a file, the file is saved with the.csv extension
+3. Clear the race record: Clear the data from the file
+4. Quit the competition program: You can quit the current program
